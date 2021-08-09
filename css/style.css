@@ -78,3 +78,26 @@ body {
 .user-list li.hide {
   display: none;
 }
+@media (max-width: 500px) {
+  .header {
+    padding: 15px 7px;
+}
+  .header input {
+    border-radius: 40px;
+
+    font-size: 12px;
+    padding: 8px 10px;
+  }
+  .user-list img {
+    height: 35px;
+    width: 35px;
+  }
+  .user-list li {
+    padding: 15px;
+    padding-bottom: 7px;
+  }
+  .user-list .user-info h4 {
+    margin: 0 0 7px;
+    font-size: 11px;
+  }
+}
